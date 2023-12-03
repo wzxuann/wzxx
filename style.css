@@ -1,0 +1,91 @@
+<style>
+    .beijing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .photo {
+        margin-top: 20px;
+    }
+    .context img {
+        width: 100%;
+    }
+    .sign {
+        margin-top: 20px;
+    }
+    .tianxie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    span {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    input {
+        width: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    .show {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .AS {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .S {
+        margin-left: 5px;
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+        .header {
+            font-size: 12px;
+            padding: 10px;
+        }
+        .context img {
+            height: 200px;
+        }
+        .tianxie  {
+            width: 90%;
+        }
+        input {
+            margin-bottom: 10px;
+        }
+    }
+</style>
+    html, body {
+      height: 100%;
+    }
+      body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .beijing {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      box-sizing: border-box;
+       background: pink url(images/背景1.jpg) no-repeat;
+    }
+
